@@ -56,7 +56,7 @@ class _NewTransactionState extends State<NewTransaction> {
                   vertical: 25,
                   horizontal: 0,
                 ),
-                width: 135,
+                width: 150,
                 child: ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
