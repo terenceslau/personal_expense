@@ -1,4 +1,4 @@
-# personal_expense
+# Personal Expenses
 
 A new Flutter project.
 
@@ -16,4 +16,15 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## More information
-- To test push to github
+Networking in Flutter:
+
+```dart
+// 1
+Future<dynamic> getRecipes(String query, int from, int to) async {
+  // 2
+  final recipeData = await getData(
+      '$apiUrl?app_id=$apiId&app_key=$apiKey&q=$query&from=$from&to=$to');
+  // 3
+  return recipeData;
+}`
+```
