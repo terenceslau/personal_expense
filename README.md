@@ -18,12 +18,10 @@ samples, guidance on mobile development, and a full API reference.
 ## More information
 #### More on MediaQuery & Responsive Layouts
 
-- [Widgets > MediaQuery]: https://api.flutter.dev/flutter/widgets/MediaQuery-class.html
-  [How to make flutter app responsive to screen size]: https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1
-
-- [Widgets > LayoutBuilder]: https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html
-
-- [Widgets > Cupertino]: https://flutter.dev/docs/development/ui/widgets/cupertino
+- [Widgets > MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
+  [How to make flutter app responsive to screen size](https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1)
+- [Widgets > LayoutBuilder](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
+- [Widgets > Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino)
 
 #### Networking in Flutter:
 
