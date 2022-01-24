@@ -15,8 +15,30 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+=======
 - More on Layouting (with `Column()`, `Row()` etc.): [https://flutter.dev/docs/development/ui/layout](https://flutter.dev/docs/development/ui/layout)
 - More on Images & Assets: [https://flutter.dev/docs/development/ui/assets-and-images](https://flutter.dev/docs/development/ui/assets-and-images)
 - Official Widget Catalog: [https://flutter.dev/docs/development/ui/widgets](https://flutter.dev/docs/development/ui/widgets)
 - Material Design Docs: [https://material.io/design/](https://material.io/design/)
 - Flutter Theming: [https://flutter.dev/docs/cookbook/design/themes](https://flutter.dev/docs/cookbook/design/themes)
+
+## More information
+#### More on MediaQuery & Responsive Layouts
+
+- [Widgets > MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
+- [How to make flutter app responsive to screen size](https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1)
+- [Widgets > LayoutBuilder](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
+- [Widgets > Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino)
+
+#### Networking in Flutter:
+
+```dart
+// 1
+Future<dynamic> getRecipes(String query, int from, int to) async {
+  // 2
+  final recipeData = await getData(
+      '$apiUrl?app_id=$apiId&app_key=$apiKey&q=$query&from=$from&to=$to');
+  // 3
+  return recipeData;
+}`
+```
